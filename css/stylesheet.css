@@ -18,6 +18,8 @@ h3 {
   color: #41464b;
 }
 
+/* HEADER */
+
 #homepage {
   height: 100%;
   width: 100%;
@@ -41,11 +43,11 @@ h3 {
   flex-wrap: nowrap;
   justify-content: center;
   align-items: center;
-  text-align: center
 }
 
 .container#homepage-box{
-  background-color: rgba(0, 0, 0, 0.6)  
+  background-color: rgba(0, 0, 0, 0.6);
+  text-align: center;
 }
 
 #homepage-header h3{
@@ -56,4 +58,67 @@ h3 {
 
 a {
   color: white;
+}
+
+/* PORTFOLIO */
+
+#portfolio {
+  position: relative;
+  width: 100%;
+}
+
+h3#recent-work {
+  font-size: 60px;
+  font-weight: 100;
+  color: #41464b;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+#work-details {
+  margin-top: 2rem;
+  color: #41464b;
+}
+
+.card-text {
+  color: #41464b;
+}
+
+.card-link {
+  color: #41464b;
+  display: flex;
+  justify-content: center;
+}
+
+/* SKILLS */
+
+#skills {
+  height: 45%;
+  width: 100%;
+  position: absolute;
+  background-image: url('../images/large.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+h3#new-skill {
+  font-size: 60px;
+  font-weight: 100;
+  color: #41464b;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.list-group-item {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-top: 1px solid #ddd;
+  border-radius: 5;
+  text-align: center;
+}
+
+.list-group-item-light {
+  background-color: rgba(255, 255, 255, 0.1);
+  margin-top: 8rem;
 }
