@@ -84,10 +84,12 @@ h3#recent-work {
   color: #41464b;
 }
 
+#tech {
+  color: #41464b;
+}
+
 .card-link {
   color: #41464b;
-  display: flex;
-  justify-content: center;
 }
 
 /* SKILLS */
